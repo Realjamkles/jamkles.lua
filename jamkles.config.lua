@@ -52,15 +52,15 @@ shiftlock.Position = UDim2.new(0.240750223, 0, 0.421310812, 0)
 shiftlock.Size = UDim2.new(0, 101, 0, 24)
 shiftlock.Font = Enum.Font.SourceSans
 shiftlock.Text = "shiftlock"
-jamklessilent.TextColor3 = Color3.fromRGB(0, 0, 0)
-jamklessilent.TextSize = 14.000
-jamklessilent.MouseButton1Click:Connect(function()  
+shiftlick.TextColor3 = Color3.fromRGB(0, 0, 0)
+shiftlock.TextSize = 14.000
+shiftlock.MouseButton1Click:Connect(function()  
 	loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 end)
 
 
 UICorner_2.CornerRadius = UDim.new(0.300000012, 0)
-UICorner_2.Parent = jamklessilent
+UICorner_2.Parent = shiftlock
 
 TextLabel.Parent = jamkles
 TextLabel.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
