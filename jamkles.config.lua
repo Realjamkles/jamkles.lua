@@ -1,6 +1,4 @@
-
-
--- instances:
+-- Instances:
 
 local jamkleslua = Instance.new("ScreenGui")
 local jamkles = Instance.new("Frame")
@@ -13,7 +11,6 @@ local TextLabel_2 = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
-
 
 jamkleslua.Name = "jamkles.lua"
 jamkleslua.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -39,8 +36,8 @@ jamklescamlock.Font = Enum.Font.SourceSans
 jamklescamlock.Text = "Camlock"
 jamklescamlock.TextColor3 = Color3.fromRGB(0, 0, 0)
 jamklescamlock.TextSize = 14.000
-jamklescamlock.MouseButton1Click:Connect(function()  
- loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()
+jamklescamlock.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()
 end)
 
 UICorner.CornerRadius = UDim.new(0.300000012, 0)
@@ -58,7 +55,7 @@ jamklessilent.Text = "silent aim"
 jamklessilent.TextColor3 = Color3.fromRGB(0, 0, 0)
 jamklessilent.TextSize = 14.000
 jamklessilent.MouseButton1Click:Connect(function()  
-	loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Sub%20to%20Ryzzchips%20for%20more%20New%20aimlock%20script!"))()", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()
 end)
 
 
