@@ -4,7 +4,7 @@ local jamkleslua = Instance.new("ScreenGui")
 local jamkles = Instance.new("Frame")
 local jamklescamlock = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
-local jamklessilent = Instance.new("TextButton")
+local shiftlock = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -43,19 +43,19 @@ end)
 UICorner.CornerRadius = UDim.new(0.300000012, 0)
 UICorner.Parent = jamklescamlock
 
-jamklessilent.Name = "jamkles silent"
-jamklessilent.Parent = jamkles
-jamklessilent.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
-jamklessilent.BorderColor3 = Color3.fromRGB(0, 0, 0)
-jamklessilent.BorderSizePixel = 0
-jamklessilent.Position = UDim2.new(0.240750223, 0, 0.421310812, 0)
-jamklessilent.Size = UDim2.new(0, 101, 0, 24)
-jamklessilent.Font = Enum.Font.SourceSans
-jamklessilent.Text = "silent aim"
+shiftlock.Name = "shift lock"
+shiftlock.Parent = jamkles
+shiftlock.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+shiftlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shiftlock.BorderSizePixel = 0
+shiftlock.Position = UDim2.new(0.240750223, 0, 0.421310812, 0)
+shiftlock.Size = UDim2.new(0, 101, 0, 24)
+shiftlock.Font = Enum.Font.SourceSans
+shiftlock.Text = "shiftlock"
 jamklessilent.TextColor3 = Color3.fromRGB(0, 0, 0)
 jamklessilent.TextSize = 14.000
 jamklessilent.MouseButton1Click:Connect(function()  
-	loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 end)
 
 
@@ -112,3 +112,4 @@ local function BURSVSV_fake_script() -- ImageButton.OPEN/CLOSE SCRIPT
 	
 end
 coroutine.wrap(BURSVSV_fake_script)()
+
