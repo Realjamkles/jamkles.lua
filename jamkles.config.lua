@@ -4,7 +4,6 @@ local jamkleslua = Instance.new("ScreenGui")
 local jamkles = Instance.new("Frame")
 local jamklescamlock = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
-local shiftlock = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -43,24 +42,9 @@ end)
 UICorner.CornerRadius = UDim.new(0.300000012, 0)
 UICorner.Parent = jamklescamlock
 
-shiftlock.Name = "shift lock"
-shiftlock.Parent = jamkles
-shiftlock.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
-shiftlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
-shiftlock.BorderSizePixel = 0
-shiftlock.Position = UDim2.new(0.240750223, 0, 0.421310812, 0)
-shiftlock.Size = UDim2.new(0, 101, 0, 24)
-shiftlock.Font = Enum.Font.SourceSans
-shiftlock.Text = "shiftlock"
-shiftlick.TextColor3 = Color3.fromRGB(0, 0, 0)
-shiftlock.TextSize = 14.000
-shiftlock.MouseButton1Click:Connect(function()  
-	loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
-end)
-
 
 UICorner_2.CornerRadius = UDim.new(0.300000012, 0)
-UICorner_2.Parent = shiftlock
+UICorner_2.Parent = jamklessilent
 
 TextLabel.Parent = jamkles
 TextLabel.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
