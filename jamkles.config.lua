@@ -1,9 +1,13 @@
+-- Gui to Lua
+-- Version: 3.2
+
 -- Instances:
 
 local jamkleslua = Instance.new("ScreenGui")
 local jamkles = Instance.new("Frame")
 local jamklescamlock = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
+local pccamlock = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -35,16 +39,32 @@ jamklescamlock.Font = Enum.Font.SourceSans
 jamklescamlock.Text = "Camlock"
 jamklescamlock.TextColor3 = Color3.fromRGB(0, 0, 0)
 jamklescamlock.TextSize = 14.000
-jamklescamlock.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()
+jamklescamlock.MouseButton1Click:Connect(function)
+loadstring(game:HttpGet("https://pastebin.com/raw/N2WHaEmX", true))()	
 end)
+
+
 
 UICorner.CornerRadius = UDim.new(0.300000012, 0)
 UICorner.Parent = jamklescamlock
 
+pccamlock.Name = "pc camlock"
+pccamlock.Parent = jamkles
+pccamlock.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
+pccamlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pccamlock.BorderSizePixel = 0
+pccamlock.Position = UDim2.new(0.240750223, 0, 0.421310812, 0)
+pccamlock.Size = UDim2.new(0, 101, 0, 24)
+pccamlock.Font = Enum.Font.SourceSans
+pccamlock.Text = "pc |    Camlock      "
+pccamlock.TextColor3 = Color3.fromRGB(0, 0, 0)
+pccamlock.TextSize = 14.000
+pccamlock.MouseButton1Click:Connect(function)
+loadstring(game:HttpGet("https://pastebin.com/raw/1RDffSpt", true))() 
+end)
 
-UICorner_2.CornerRadius = UDim.new(0.300000012, 0)
-UICorner_2.Parent = jamklessilent
+UICorner_2.CornerRadius = UDim.new(0.075000003, 0)
+UICorner_2.Parent = pccamlock
 
 TextLabel.Parent = jamkles
 TextLabel.BackgroundColor3 = Color3.fromRGB(214, 214, 214)
@@ -78,7 +98,7 @@ ImageButton.Image = "rbxassetid://16723980638"
 
 -- Scripts:
 
-local function HPYPZPH_fake_script() -- jamkleslua.LocalScript 
+local function SFBD_fake_script() -- jamkleslua.LocalScript 
 	local script = Instance.new('LocalScript', jamkleslua)
 
 	frame = script.Parent.jamkles
@@ -86,8 +106,8 @@ local function HPYPZPH_fake_script() -- jamkleslua.LocalScript
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(HPYPZPH_fake_script)()
-local function BURSVSV_fake_script() -- ImageButton.OPEN/CLOSE SCRIPT 
+coroutine.wrap(SFBD_fake_script)()
+local function DXHXXJ_fake_script() -- ImageButton.OPEN/CLOSE SCRIPT 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -95,5 +115,4 @@ local function BURSVSV_fake_script() -- ImageButton.OPEN/CLOSE SCRIPT
 	end)
 	
 end
-coroutine.wrap(BURSVSV_fake_script)()
-
+coroutine.wrap(DXHXXJ_fake_script)()
