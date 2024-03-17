@@ -102,7 +102,7 @@ CheckKey.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
  
 -- Put Your Script Here
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Realjamkles/jamkles.lua/main/jamkles.config.lua", true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ggsRCZD4", true))()
     else
         TextBox.PlaceholderText = "Invalid key. Try again."
         TextBox.Text = ""
