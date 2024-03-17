@@ -90,7 +90,7 @@ GetKey.MouseButton1Click:Connect(function()
 end)
  
 local function validateKey(key)
-    return key == "YXL" or "testers key" or "jamkles.luax" -- Replace this with your key
+    return key == "YXL" or "testers key" or "jamkles.luax" or "obiwan" -- Replace this with your key
 end
  
 CheckKey.MouseButton1Click:Connect(function()
